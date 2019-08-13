@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>Buric_Apc</name>
+    <version>1.0.0.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Clear the APC cache from Cache management section in Magento admin panel.</summary>
+    <description>A button in the Cache management section in Magento admin panel. Clicking on the button clears APC cache.&#xD;
+&lt;br /&gt;&#xD;
+&lt;img src="http://inchoo.net/wp-content/uploads/2013/02/Cache-Management-System-Magento-Admin.png" /&gt;&#xD;
+&lt;hr /&gt;&#xD;
+&lt;a href="https://github.com/buric/Inchoo_Apc"&gt;GitHub Repository&lt;/a&gt;</description>
+    <notes>Initial</notes>
+    <authors><author><name>Zvonimir Buri&#x107;</name><user>buric</user><email>zvonimir.buric@gmail.com</email></author></authors>
+    <date>2014-03-04</date>
+    <time>11:46:34</time>
+    <contents><target name="magecommunity"><dir name="Buric"><dir name="Apc"><dir name="Model"><file name="Observer.php" hash="d488e59645b9540fd460b9db3fb85689"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="ClearapcController.php" hash="a3804ae5ca022f47ad0d8e0578a3b249"/></dir></dir><dir name="etc"><file name="config.xml" hash="1afbc321e15cc05998a21346972462bd"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Buric_Apc.xml" hash="24095e61df9748e32487da144b2610b0"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="system"><dir name="cache"><file name="additional.phtml" hash="41ce6026425d351c5927bb30f61043c0"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

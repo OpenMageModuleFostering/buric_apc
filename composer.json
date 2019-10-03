@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Buric_Apc",
+    "name": "OpenMageModuleFostering\/Buric_Apc",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "Clear the APC cache from Cache management section in Magento admin panel.",
     "authors": [
-    {
-        "name": "Zvonimir Buri\u0107",
-        "email": "zvonimir.buric@gmail.com"
-    }
-],
+        {
+            "name": "Zvonimir Buri\u0107",
+            "email": "zvonimir.buric@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
